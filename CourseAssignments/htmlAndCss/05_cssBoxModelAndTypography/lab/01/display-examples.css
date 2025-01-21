@@ -1,0 +1,47 @@
+section {
+  border: 2px solid black;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+section p {
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+
+section.block p {
+  display: block;
+}
+
+section.inline p {
+  display: inline;
+}
+
+section.inline-block p {
+  display: inline-block;
+}
+
+
+
+/*2.	Element Creation:*/
+/*•	Create 3 sections by using the section tag and place one h2 heading inside along with 3 paragraphs.*/
+/*                                                                                           •	Add class to each section – block, inline, inline-block*/
+
+/*3.	CSS Styling:*/
+/* •	Sections*/
+/*1.	Border of 2px solid black*/
+/*2.	Padding 1em from top and bottom and 2em from left and right*/
+/*3.	Bottom margin 2em*/
+
+/*                   •	All paragraphs in sections*/
+/*1.	Border of 1px solid #ccc*/
+/*2.	Padding of 1em*/
+
+/*                •	All paragraphs in a section with class "block"*/
+/*1.	Display of block*/
+
+/* •	All paragraphs in a section with class "inline"*/
+/*1.	Display of inline*/
+
+/* •	All paragraphs in a section with class "inline-block"*/
+/*1.	Display of inline-block*/
