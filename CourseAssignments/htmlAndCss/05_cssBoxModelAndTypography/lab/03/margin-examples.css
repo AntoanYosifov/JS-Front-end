@@ -1,16 +1,16 @@
-div p {
+div {
   border: 2px solid black;
   padding: 1em;
 }
 
-div.uniform p {
+div.uniform  {
   margin: 20px;
 }
 
-div.non-uniform p {
+div.non-uniform {
   margin: 10px 20px 30px 40px;
 }
 
-div.negative p {
+div.negative {
   margin-top: -20px;
 }
