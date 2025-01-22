@@ -1,0 +1,27 @@
+div {
+  border: 2px solid black;
+  margin-bottom: 2em;
+}
+
+div.uniform {
+  padding: 20px;
+}
+
+div.non-uniform {
+  padding: 10px 20px 30px 40px;
+}
+
+div.negative {
+  padding: 5%;
+}
+
+/*1.	First element – Uniform padding*/
+/* 	padding: 20px;*/
+
+/*2.	Second element – Non-Uniform Padding*/
+/* 	padding: 10px 30px 20px 40px;*/
+/*•	order is – top, right, bottom, left*/
+
+/*3.	Third element – Percentage Padding*/
+/* 	padding: 5%;*/
+
