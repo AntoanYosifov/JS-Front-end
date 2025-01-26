@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic Layout</title>
+  <style>
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font: 16px/1.5 Verdana, sans-serif;
+    }
+
+    body, form, input, button {
+      font: inherit;
+    }
+
+    body {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    body > * {
+      border: 2px solid black;
+      padding: 2em;
+    }
+
+    header {
+      display: flex;
+      flex: 1 1 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    main {
+      flex: 1 1 20ch;
+    }
+
+    footer {
+      flex: 1 1 100%;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 2em;
+    }
+
+    nav ul li,
+    nav ul li a {
+      display: block;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+
+    <header>
+      <h1>Lazy blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Archive</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Main section of the blog</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae consequuntur quisquam sed! Illum, non praesentium? Delectus eius eos est ipsa labore minima neque nisi quos reiciendis ut. Alias, nam.</p>
+    </main>
+
+    <aside>
+      <section>
+        <h4>Search</h4>
+        <form action="#">
+          <input type="search">
+          <button>Search</button>
+        </form>
+      </section>
+
+      <section>
+          <h4>Archive</h4>
+          <ul>
+            <li><a href="#">Jan 2024</a></li>
+            <li><a href="#">Feb 2024</a></li>
+            <li><a href="#">Mar 2024</a></li>
+            <li><a href="#">Apr 2024</a></li>
+            <li><a href="#">Jun 2024</a></li>
+          </ul>
+      </section>
+    </aside>
+
+    <footer>
+      <p>All rights reserved &copy; 2000 - 2025 Lazy stuff</p>
+    </footer>
+</body>
+</html>
