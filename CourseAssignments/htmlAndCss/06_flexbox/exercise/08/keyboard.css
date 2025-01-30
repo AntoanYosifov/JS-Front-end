@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboard {
+  border: 1px solid #999;
+  border-radius: 0.7em;
+  padding: 1em;
+  background-color: #ddd;
+  box-shadow: 0 0.2em 0 rgb(0,0,0,0.3);
+}
+
+.rows {
+  display: flex;
+  gap: 0.4em;
+}
+
+.rows p,
+.rows span{
+  margin-top: 1em;
+  border: 1px solid #ccc;
+  padding: 0.6em 1.2em;
+  border-radius: 0.3em;
+  text-align: center;
+  box-shadow: 0 0.2em 0 rgb(0,0,0,0.1);
+}
+
+.f-row-1 p {
+  margin-top: 0;
+  background-color: #eee;
+}
+
+.number-row-2 p {
+  background-color: #fff;
+}
+
+.number-row-2 p:last-of-type {
+  background-color: #eee;
+}
+
+.tab-row-3 p {
+  background-color: #fff;
+}
+
+.tab-row-3 p:first-of-type,
+.tab-row-3 p:last-of-type {
+  background-color: #eee;
+}
+
+.tab-row-3 p:last-of-type {
+  position: relative;
+}
+
+.tab-row-3 p:last-of-type::after {
+  position: absolute;
+  top: 100%;
+  right: -0.6px;
+  content: '';
+  width: 5.5em;
+  height: 3.8em;
+  border: 1px solid #ccc;
+  padding: 0.6em 1.2em;
+  text-align: center;
+  box-shadow: 0 0.2em 0 rgb(0,0,0,0.1);
+  background-color: #eee;
+  border-top: none;
+  border-radius: 0 0 0.3em 0.3em;
+}
+
+.caps-lock-4 p {
+  background-color: #fff;
+}
+
+.caps-lock-4 p:first-of-type {
+  background-color: #eee;
+}
+
+.caps-lock-key {
+  width: 9em;
+}
+
+.shift-row-5 p {
+  background-color: #fff;
+}
+
+.shift-row-5 p:first-of-type,
+.shift-row-5 p:last-of-type {
+  background-color: #eee;
+}
+
+
+.ctr-row-6 p {
+  background-color: #eee;
+}
+
+.ctr-row-6 span {
+  background-color: #fff;
+}
+
+.grow {
+  flex-grow: 2;
+}
+
+.grow.enter {
+  flex-grow: 3;
+  border-bottom-right-radius: 0;
+}
