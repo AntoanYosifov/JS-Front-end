@@ -1,0 +1,6 @@
+body {
+  padding: 4em;
+}
+
+body > div:nth-child(2) {font-size: 0.7em;}
+
