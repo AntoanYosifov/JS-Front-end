@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+  font: 12px/1.5 Lato, sans-serif;
+}
+
+.site {
+  background: #fff;
+  border-radius: 0.3em;
+  box-shadow: 0 0 1em rgb(0,0,0,0.1);
+  overflow: hidden;
+}
+
+p {
+  margin: 1em;
+}
+
+.site-header h1 {
+  padding: 2rem;
+  font-weight: 700;
+}
+
+.site-header h1 a {
+  color: forestgreen;
+  text-decoration: none;
+}
+
+.site-header nav {
+  background: #555;
+}
+
+.site-header nav ul {
+  padding: 0;
+}
+
+.site-header nav li,
+.site-header nav a {
+  display: block;
+}
+
+.site-header nav a {
+  text-decoration: none;
+  color: #ddd;
+  padding: 1em 1.5em;
+}
+
+.site-header nav a:hover {
+  background: #222;
+  color: #fff;
+}
+
+.content-main,
+.content-aside {
+  padding: 2em;
+}
+
+.site-footer {
+  background: #555;
+  color: #ddd;
+  padding: 1em;
+  text-align: center;
+}
+
+@media (max-width: 999px) {
+  .site-header nav ul li + li a {
+    border-top: 1px solid #999;
+  }
+
+  .site header nav ul li a {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .site {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .site nav ul {
+    display: flex;
+  }
+
+  .site nav ul li {
+    flex: 1 1 auto;
+  }
+
+  .site-content {
+    display: flex;
+  }
+}
