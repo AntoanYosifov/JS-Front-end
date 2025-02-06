@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html {
+  font: 16px/1.5 'Source Sans 3' , sans-serif;
+}
+
+body {
+  min-height: 100dvh;
+  background: #F6F6F6;
+}
+
+body, input, textarea, button {
+  font: inherit;
+}
+
+form {
+  margin-bottom: 2em;
+}
+
+header {
+  font-size: 0.7rem;
+  letter-spacing: 0.3rem;
+
+  text-transform: uppercase;
+  color: #585858;
+}
+
+div.form header {
+  margin-bottom: 4em;
+}
+
+.follow header {
+  margin-bottom: 1em;
+}
+
+input {
+  border: none;
+  background-color: #F6F6F6;
+}
+
+label {
+ color: #757575;
+}
+
+div.form div {
+  border-bottom: 1px solid #C2C2C2;
+}
+
+form > * {
+  padding-bottom: 0.5em;
+}
+
+form div:first-child,
+form div:nth-child(2) {
+  display: inline-block;
+  margin-bottom: 1.5em;
+}
+
+form div:first-child {
+  margin-right: 1em;
+}
+
+.message {
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #585858;
+  font-weight: bold;
+  font-size: 0.7em;
+  border: none;
+  border-radius: 0.1rem;
+  margin-top: 1em;
+}
+
+a {
+  color: #585858;
+}
+
+p {
+  color: #757575;
+}
+
+span {
+  margin-left: 1em;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.flex-container {
+  max-width: 2090px;
+  display: flex;
+  gap: 2em;
+}
+
+i {
+  text-align: center;
+  color: #585858;
+  border: 2px solid #C9C9C9;
+  padding: 0.5em;
+  margin: 0.3em;
+  font-size: 1.2em;
+  min-width: 65px;
+  border-radius: 0.2em;
+}
+
+
+
+
+
