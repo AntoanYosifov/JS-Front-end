@@ -1,0 +1,55 @@
+@media (max-width: 600px) {
+    .container-fluid {
+      padding: 40px 0 40px 15px;
+    }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about.mb-80 {
+    display: flex;
+  }
+
+  .about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+  }
+
+  .about-text {
+    margin-right: -20px;
+  }
+
+  section.site-header {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .site-header > i, h1 {
+    position: static;
+  }
+
+  .checkbtn {
+    display: block;
+    order: 1;
+    padding-right: 0.6em;
+  }
+
+  .logo {
+    order: 0;
+  }
+
+ul li {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+}
