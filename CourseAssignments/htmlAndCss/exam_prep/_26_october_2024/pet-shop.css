@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+
+html {
+    font: 16px/1.5 Poppins, sans-serif;
+}
+
+body {
+  height: 100dvh;
+  padding: 2em;
+}
+
+.site {
+  border: 1px solid lightgrey;
+  margin: 0 4em;
+  display: flex;
+  padding: 1em 4em;
+  gap: 2em;
+  background: white;
+  box-shadow: 0 2em 3em 0 rgb(0,0,0,0.4);
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  background: #F3F3F3;
+  border-left: 0.4em solid #7AB730;
+}
+
+.site-header > h5{
+  color:#7AB730 ;
+}
+
+.site-header h1 {
+  font-size: 3em;
+  padding: 2rem;
+}
+
+.site .media {
+  display: flex;
+  flex: 1 0 600px;
+  justify-content: center;
+}
+
+.site .media img {
+  width: 600px;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.middle-paragraph {
+  margin: 1em;
+  text-align: center;
+  font-weight: bolder;
+  color: #656565;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background: #F3F3F3;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.site-main p {
+  color: #656565;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.button-mission,
+.button-vision {
+  flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.button-mission {
+  background-color: #7AB730;
+  color: #FFFFF2
+}
+
+.button-vision {
+  color: #7AB730
+}
