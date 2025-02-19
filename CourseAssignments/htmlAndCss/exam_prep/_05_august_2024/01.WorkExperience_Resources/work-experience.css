@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html {
+  font: 13px/1.5 'Margarine' , sans-serif;
+}
+
+body {
+  min-height: 100dvh;
+  background: #FFF0E4;
+  padding: 7em 14em 9em 14em;
+}
+
+body, input, textarea, button {
+  font: inherit;
+}
+
+p, h3 {
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.date {
+  color: #2991E6;
+}
+
+section.section-flex-container {
+  display: flex;
+  gap: 1em;
+
+}
+
+.contacts-skills {
+  flex: 1 1 35%
+}
+
+.contacts-skills,
+.work-experience {
+  box-shadow: 0 2em 4em 1em rgb(0, 0, 0, 0.3);
+}
+
+.contacts-skills h2 {
+  margin-bottom: 1em;
+}
+
+.contacts-skills .contacts,
+.contacts-skills .skills{
+  padding: 1em 0 0 0;
+  margin: 0 1em 0 1em;
+}
+
+.contacts {
+  border-bottom: 1px solid #9A9A9A ;
+}
+
+.contacts-skills .skills .percentage {
+  background-color: #2991E6;
+  text-align: center;
+  color: white;
+  border-radius: 1em;
+  font-size: 0.8em;
+  margin-top: 1.5em;
+}
+
+.contacts-skills .skills .ninety  {
+    width: 90%;
+}
+
+.contacts-skills .skills .eighty  {
+  width: 80%;
+}
+
+.contacts-skills .skills .seventy-five  {
+  width: 75%;
+}
+
+.contacts-skills .skills .fifty  {
+  width: 50%;
+}
+
+.work-experience {
+  flex: 1 1 70%;
+  padding: 1em;
+}
+
+section.work-experience h2 {
+  text-align: center;
+  padding: 1.5em;
+}
+
+section.work-experience h3 {
+  color: #655F5A;
+}
+
+section.work-experience > section {
+  margin: 0 1em 1em 1em;
+}
+
+section.work-experience  section + section {
+  padding-top: 1em;
+  border-top: 1px solid #9A9A9A;
+}
+
+i {
+  padding-right: 1.4em;
+  color: #2991E6;
+}
+
+
+

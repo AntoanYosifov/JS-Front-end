@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+  body header nav {
+    display: block;
+  }
+
+  body header nav img {
+    display: block;
+    margin: 0 auto ;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+  }
+
+  .our-dogs-wrapper ul {
+    display: flex;
+    row-gap: 1em;
+    column-gap: 4em;
+  }
+
+  .our-dogs-wrapper ul li {
+    flex: 1 1 35%;
+  }
+
+  .our-dogs-wrapper ul li img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+
+  .helpNeed ul {
+    flex-direction: column;
+  }
+}

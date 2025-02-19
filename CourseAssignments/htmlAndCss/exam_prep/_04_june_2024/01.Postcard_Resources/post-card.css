@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+html {
+  font: 16px/1.5 'Gochi Hand' , sans-serif;
+}
+
+body {
+  height: 100dvh;
+  background-color:#E0E0E0 ;
+}
+
+body, input, textarea, button {
+  font: inherit;
+}
+
+/** {*/
+/*  outline: 1px solid red;*/
+/*}*/
+
+
+section.main-container {
+  max-width: 60%;
+  margin: 2em auto;
+  border-radius: 0.9em;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  box-shadow: 0 0 1em 0 rgb(0,0,0,0.2) ;
+}
+
+
+section section.section-card-holder {
+  background-image: url("images/nature.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+  padding: 1.4em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  min-height: 450px;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+section .section-one {
+  display: flex;
+  align-items: flex-end;
+  padding: 1.3em;
+}
+
+section .section-one .greeting-message {
+  background-color: #F4F5F4;
+  border-radius: 0.5em;
+}
+
+section .section-one .greeting-message h2 {
+  text-align: center;
+  margin: 0.5em 0;
+  color: #333333;
+}
+
+section .section-one .greeting-message p {
+  text-align: center;
+  padding: 0 1em;
+  color: #666666;
+}
+
+section .section-two {
+  border-top: 1px solid #CCCCCC;
+  background-color: #F9F9F9;
+  padding: 2.5em;
+}
+
+section .section-two h2 {
+  margin-bottom: 0.5em;
+}
+
+section .section-two p {
+  color: #666666;
+}
+
+section .section-two p + p {
+  margin-top: 0.3em;
+}
+

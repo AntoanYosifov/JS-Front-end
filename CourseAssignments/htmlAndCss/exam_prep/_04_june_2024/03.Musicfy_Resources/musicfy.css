@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+html {
+  font: 16px/1.5 'Lato' , sans-serif;
+}
+
+body {
+  height: 100dvh;
+}
+
+body, input, textarea, button {
+  font: inherit;
+}
+
+div.music-img-wrapper {
+  position: absolute;
+  top: 6em;
+  width: 43%;
+  z-index: 1;
+}
+
+/** {*/
+/*  outline: 1px solid red;*/
+/*}*/
+
+header {
+  background-color: #1DB954;
+  padding-bottom: 20em;
+}
+
+header nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-right: 2em;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-wrapper {
+  flex: 0 1 5%;
+}
+
+main {
+  background-color: white;
+}
+section.plans {
+  position: absolute;
+  top: 12%;
+  left: 15%;
+  width: 70%;
+  z-index: 2;
+}
+
+section.plans h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+section.plans div.plans-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 14em;
+  padding: 2em;
+}
+
+section.plans div.plans-wrapper .individual-plan,
+section.plans div.plans-wrapper .family-plan {
+  flex: 1 0 37%;
+  background-color: white;
+  border-radius: 0.4em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  box-shadow: 0 0 0.4em 0 rgb(0, 0,0, 1);
+
+}
+section.plans div.plans-wrapper .individual-plan div.info,
+section.plans div.plans-wrapper .family-plan div.info {
+  padding: 0 1em;
+}
+
+
+
+section.plans div.plans-wrapper .individual-plan h3,
+section.plans div.plans-wrapper .family-plan h3 {
+  text-align: center;
+  color: #54546D;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+section.plans div.plans-wrapper .individual-plan h3 {
+    margin: 1em 0 2em 0;
+}
+
+section.plans div.plans-wrapper .family-plan h3 {
+  margin: 1em 0;
+}
+
+section.plans div.plans-wrapper ul {
+  margin-bottom: 2em;
+}
+
+section.plans div.plans-wrapper ul li {
+  list-style: circle;
+  margin: 0.3em 3em;
+  color: #54546D;
+  font-size: 0.9rem;
+}
+
+section.plans div.plans-wrapper div.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+
+
+section.plans div.plans-wrapper div.button a {
+  padding: 0.5em 2.5em;
+  border-radius: 1.5em;
+  text-decoration: none;
+  color: white;
+  background-color: #1DB954;
+  font-weight: 600;
+  font-size: 0.9rem;
+
+}
+
+section.plans div.plans-wrapper  .prices {
+  background-color: black;
+  text-align: center;
+  padding: 0.8em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+section.plans div.plans-wrapper .prices a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.individual-plan .prices a:first-child {
+  border-right: 1px solid white;
+  padding-right: 1em;
+}
+
+section.info-and-dogo {
+  padding-top: 16em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4em;
+  margin-bottom: 6em;
+}
+
+section.info-and-dogo .info-text {
+  flex: 1 0 47%;
+  margin-left: 5em;
+}
+
+section.info-and-dogo .info-text h3,
+section.info-and-dogo .info-text p {
+  padding-bottom: 1em;
+}
+
+section.info-and-dogo .info-text h3 {
+  font-size: 1.2rem;
+  font-weight: 720;
+}
+section.info-and-dogo .dogo-img-wrapper {
+  flex: 1 1 28%;
+  display: flex;
+  justify-content: center;
+  margin-right: 11em;
+}
+
+section.info-and-dogo .dogo-img-wrapper img {
+  width: 100%;
+}
+
+
+section.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.table .text-info h2 {
+  text-align: center;
+  margin-bottom: 0.8em;
+  font-size: 2.9rem;
+}
+
+section.table .text-info p {
+  text-align: center;
+}
+
+section.table .text-info {
+  margin-bottom: 1em;
+}
+
+section.table .table-wrapper {
+  border: 1px solid black;
+  width: 70%;
+}
+
+section.table .table-wrapper p {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.table .table-wrapper p span {
+}
+
+
+
+
+
+
+
+
+
+

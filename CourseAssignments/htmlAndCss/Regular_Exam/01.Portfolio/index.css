@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+html {
+  font: 16px/1.5 'IBM Plex Mono' , sans-serif;
+}
+
+body {
+  height: 100dvh;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body, input, textarea, button {
+  font: inherit;
+}
+
+
+div.container {
+  background-color: #080808;
+  width: 100%;
+  max-width: 60%;
+  border-radius: 0.5em;
+  padding: 0 2em;
+}
+
+header {
+  margin: 0 2.5em;
+  padding: 1em;
+  background-color: #1B1B1B;
+  border-bottom-left-radius: 0.7em;
+  border-bottom-right-radius: 0.7em;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1.2em;
+  justify-content: space-evenly;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #9C9C9C;
+  font-size: 0.7rem;
+}
+
+header section.icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0 0 10%;
+}
+
+header section.icons .image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  flex: 0 0 70%;
+}
+header section.icons {
+  flex: 0 0 30%;
+}
+
+
+main {
+  display: flex;
+  margin: 3em;
+  padding: 1em;
+  gap: 2em;
+  align-items: center;
+}
+
+main section.text-info h1 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+main section.text-info {
+  flex: 1 0 60%;
+}
+
+main section.avatar {
+  flex: 1 0 30%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+main section.text-info p {
+  color: #9C9C9C;
+  margin-bottom: 1em;
+}
+
+main section.text-info .button {
+  display: inline-block;
+  color: white;
+  background-color: #3F8E00;
+  padding: 0.7em 3em;
+  border-radius: 0.3em;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+
+footer {
+  margin: 0 2.3em;
+}
+
+footer p {
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 1em;
+}
+
+footer .icons {
+  display: flex;
+  gap: 4.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer .icons .image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9C9C9C;
+  border-radius: 0.3em;
+  overflow: hidden;
+  padding: 0.5rem 1.5rem;
+  aspect-ratio: 2/1;
+  flex: 0 0 12%;
+  margin-bottom: 1.5em;
+}
+
+
+
