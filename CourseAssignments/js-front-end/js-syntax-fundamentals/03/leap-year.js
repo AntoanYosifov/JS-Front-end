@@ -6,5 +6,3 @@ function solve(year) {
   }
 }
 
-
-solve(4);
