@@ -8,4 +8,8 @@ function nXnMatrix(n) {
   }
 }
 
-nXnMatrix(7);
+// nXnMatrix(7);
+
+const nXnMatrixOneRow = (n) => console.log(((n + " ").repeat(n).trim() + "\n").repeat(n).trim());
+
+nXnMatrixOneRow(7)
