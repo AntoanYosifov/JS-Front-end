@@ -1,3 +1,0 @@
-function extract(content) {
-    // TODO
-}
