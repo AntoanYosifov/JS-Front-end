@@ -13,6 +13,5 @@ function solve() {
                 return number.toString(16).toUpperCase();
         }
     }
-
     document.getElementById('result').value = convertNumber(numberToConvert, convertTo);
 }

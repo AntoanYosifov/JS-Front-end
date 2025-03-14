@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <h1>Dom Manipulation</h1>
+
+    <ul class="movie-list">
+        <li>The Matrix</li>
+        <li>Gladiator</li>
+    </ul>
+    <script>
+        // Select movie list element
+        const movieListElement = document.querySelector('ul.movie-list');
+        // Create element
+        const newMovieElement = document.createElement('li');
+        // Add content
+        newMovieElement.textContent = 'Beautiful Mind';
+        // Add to dom
+        setTimeout(() => {
+            movieListElement.appendChild(newMovieElement);
+            // movieListElement.append(newMovieElement);
+            // movieListElement.prepend(newMovieElement);
+        }, 2000);
+
+        // Clone element and append
+        const firstMovieElement = movieListElement.children[0];
+
+        const firstElementMovieClone = firstMovieElement.cloneNode(true);
+        firstElementMovieClone.textContent = firstElementMovieClone.textContent + ' Cloned!';
+        console.log(firstElementMovieClone);
+
+        // Append cloned element
+        movieListElement.append(firstElementMovieClone);
+
+    </script>
+</body>
+</html>
